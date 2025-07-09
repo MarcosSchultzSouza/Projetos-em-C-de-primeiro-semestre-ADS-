@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int num1, num2, subtracao;
+    
+    printf("Digite um número para ser subtraido:\n");
+    scanf("%d", &num1);
+    
+    printf("Digite um número para ser subtraido:\n");
+    scanf("%d", &num2);
+    
+    subtracao = num1 - num2;
+    
+    printf("O resultado da subtração é de : %d", subtracao);
+    
+    return 0;
+}
